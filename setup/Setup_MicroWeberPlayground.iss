@@ -12,7 +12,7 @@
 ; NOTE: The value of AppId uniquely identifies this application.
 ; Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{37FB50F7-D54F-4B22-9CEF-3ABE03FE7122}
+AppId={{A820AB7A-4035-4618-B133-1B4CE3307357}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppVerName={#MyAppName} {#MyAppVersion}
@@ -21,7 +21,7 @@ AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\MicroWeber Playground
-DisableDirPage=yes
+DisableDirPage=auto
 DefaultGroupName={#MyAppName}
 DisableProgramGroupPage=yes
 OutputDir=.
@@ -43,6 +43,13 @@ UninstallLogMode=overwrite
 VersionInfoVersion=1.1
 VersionInfoCompany=MicroWeber
 LicenseFile=d:\mwp\setup\License.txt
+WindowVisible=True
+RestartApplications=False
+EnableDirDoesntExistWarning=True
+AppendDefaultDirName=False
+UserInfoPage=True
+Compression=lzma2/ultra64
+InternalCompressLevel=ultra64
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
@@ -131,7 +138,6 @@ Filename: "{app}\{#ExeName1}"; Flags: postinstall runascurrentuser shellexec; De
 Type: files; Name: "{app}\*"
 
 [Code]
-
 function CheckProcessRunning( aProcName,
                               aProcDesc: string ): boolean;
 var
@@ -142,6 +148,7 @@ var
   f: string;
   d: string;
 begin
+  (*
   cmd := 'for /f "delims=," %%i ' + 
          'in (''tasklist /FI "IMAGENAME eq ' + aProcName + '" /FO CSV'') ' + 
          'do if "%%~i"=="' + aProcName + '" exit 1'; 
@@ -171,6 +178,7 @@ begin
       Break;
   end;
   DeleteFile( d + f );
+  *)
 end;
 
 // Perform some initializations.  Return False to abort setup
@@ -178,14 +186,14 @@ function InitializeSetup: Boolean;
 begin
   // Do not use any user defined vars in here such as {app}
   //InitializeGlobals;
-  Result := not ( CheckProcessRunning( 'firefox.exe', 'Firefox' ));
+  /// Result := not ( CheckProcessRunning( 'firefox.exe', 'Firefox' ));
 end;
 
 
 function InitializeUninstall(): Boolean;
   var ErrorCode: Integer;
 begin
-  ///ShellExec('open','taskkill.exe','/f /im {#ExeName}','',SW_HIDE,ewNoWait,ErrorCode);
-  ///ShellExec('open','tskill.exe',' {#ExeName}','',SW_HIDE,ewNoWait,ErrorCode);
+  /// ShellExec('open','taskkill.exe','/f /im {#ExeName}','',SW_HIDE,ewNoWait,ErrorCode);
+  /// ShellExec('open','tskill.exe',' {#ExeName}','',SW_HIDE,ewNoWait,ErrorCode);
   result := True;
 end;
