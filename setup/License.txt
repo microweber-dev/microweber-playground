@@ -1,0 +1,41 @@
+END USER LICENSE AGREEMENT 
+
+PLEASE READ THIS LICENCE AGREEMENT CAREFULLY. THE USE OF THIS SOFTWARE IS SUBJECT TO THE TERMS OF THE LICENSE AGREEMENT SHOWN BELOW. IF YOU DO NOT AGREE WITH THE TERMS, THEN YOU SHOULD NOT USE THE SOFTWARE OR ANY PART OF THE SOFTWARE IN ANY WAY. BY USING THIS SOFTWARE, YOU AGREE TO BE A PART OF ALL THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT.
+AGREEMENT
+
+1. This document is a legal agreement between MicroWeber Ltd, hereafter referred to as MicroWeber, and the user of the software, hereafter referred to as "Licensee".
+
+OWNERSHIP
+2. MicroWeber own the Software and all intellectual property rights therein. The structure, organization, and code of the Software are the valuable trade secrets and confidential information of MicroWeber.  The Software is protected by law, including without limitation the copyright laws of Bulgaria and all other countries, and by international treaty provisions.
+
+DEFINITIONS
+3. "Software": MicroWeber CMS and its parts such as MicroWeber templates and MicroWeber modules, developed by MicroWeber.
+
+
+4. "Application": This is a web application (own, leased, used under a third part license agreement) which incorporates MicroWeber.
+
+
+5. "Server": A computer (physical or virtual) on which MicroWeber or a portion of MicroWeber is distributed.
+
+6. "Client machine": a Windows computer on which the end user of the system uses the Software.
+
+7. "Licensee": this is an intermediate user who has embedded the Software in an Application and who must be a Legitimate Party under a License Agreement with MicroWeber in connection with the implementation of the Software in the Application.
+
+8. "User": This is the end user who uses the Software on Client machine.
+
+GRANT OF LIMITED LICENSE
+9. Subject to the terms of this EULA, MicroWeber grants to User a personal, non-exclusive, non-transferable, limited license to install and use the Software on one device residing on your premises. User is permitted to make a single copy of the Software strictly for backup and disaster recovery purposes.  User may not alter or modify the Software or create a new installer for the Software. The User may only use the Software in case that the Software is part of a web application for which application the owner is a licensed person under a Licensing Agreement with MicroWeber as Licensee in connection with the embedding of the Software in that web application. In all other cases, the User is not entitled to install the Software or, if it has already installed, he must immediately uninstall the Software.
+
+PRICE
+10. As long as the User uses the Software legally under this agreement, he shall not owe any remuneration. Otherwise, the User owes a fee to the Software at the current rate indicated on MicroWeber.com.
+
+RESTRICTIONS
+11. User may not:
+a. Create derivative works based on the Software or any part or component thereof.
+b. Reproduce the Software in whole or in part;
+c. Sell, assign, license, disclose, or otherwise transfer or make available the Software in whole or in part to any third party;
+d. Alter, translate, decompile, or attempt to reverse engineer the Software or any part of component thereof, subject to applicable law which permits such activity notwithstanding this contractual prohibition; 
+e. Remove or alter any proprietary notices or marks on the Software.
+
+WARRANTIES AND DISCLAIMERS
+12. THIS SOFTWARE AND THE ACCOMPANYING FILES ARE SOLD "AS IS" WITHOUT WARRANTY OF ANY KIND EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. YOUR USE OF THE SOFTWARE IS AT YOUR OWN RISK. NO LIABILITY FOR CONSEQUENTIAL DAMAGES. UNDER NO CIRCUMSTANCE SHALL MicroWeber BE LIABLE FOR ANY DAMAGES WHATSOEVER ARISING FROM THE USE OR INABILITY TO USE MicroWeber PRODUCTS.
